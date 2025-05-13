@@ -15,5 +15,9 @@ def get_superheroes():
     rows = ["Superman", "Batman", "Flash", "Linterna Verde", "Mujer maravilla", "Aquaman", "Shazam", "Cyborg"]
     return rows
 
+@app.get("/lenguajes de programacion")
+def get_lenguajes():
+    rows = ["Python", "Java", "C++", "JavaScript", "PHP", "Ruby"]
+    return rows
 
 
